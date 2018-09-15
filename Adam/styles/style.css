@@ -3,8 +3,8 @@ ul {
 }
 
 /* ID tags can only be used on one element. */
-#list1 {
-   background-color: pink; 
+#blue {
+   background-color: blue; 
    font-size: 40px;
 }
 
