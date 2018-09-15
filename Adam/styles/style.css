@@ -1,0 +1,36 @@
+ul {
+    background-color: blue;
+}
+
+/* ID tags can only be used on one element. */
+#blue {
+   background-color: blue; 
+   font-size: 40px;
+}
+
+/* Classes can be used on moultiple elements. */
+ul.pinklist {
+   background-color: pink; 
+   font-size: 40px;
+}
+
+
+/* Any element contained within a ul element with class ul. */
+ul .pinklist {
+    background-color: pink; 
+    font-size: 40px;
+ }
+
+ /* Define multiple elemnts with the same styles. */
+p, h6, h7 {
+    background-color: pink; 
+    font-size: 40px;
+ }
+
+  /* Every p element imediatly following a div element. */
+div + p {
+    background-color: pink; 
+    font-size: 40px;
+ }
+
+
