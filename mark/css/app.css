@@ -1,0 +1,12 @@
+/*p {
+  background-color: color:yellow;
+}
+*/
+
+#social {
+  font-size: 20px;
+}
+
+p .aboutmeborder{  /* p . with space only selects what has been spanned inside p */
+  border: 1px solid red;
+}
